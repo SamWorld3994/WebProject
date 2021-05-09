@@ -1,0 +1,97 @@
+.background1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 750px;
+    background: url(../Image/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    padding-top: 20px;
+    position: absolute;
+    left: 0;
+    top: 909px;
+    background-image: url(../Image/menu_bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: max-content;
+}
+
+.our-product {
+    position: absolute;
+    left: 0;
+    top: 1863px;
+    background-image: url(../Image/black_bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: max-content;
+}
+
+.footer-bg {
+    position: absolute;
+    left: 0;
+    top: 2613px;
+    background-image: url(../Image/footer_bg.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.container {
+    height: max-content;
+}
+
+.quater {
+    padding-left: 10px;
+    padding-bottom: 50px;
+    float: left;
+    width: 50%;
+    height: max-content;
+}
+
+.quater h2 {
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 1em !important;
+}
+
+.img {
+    float: left;
+}
+
+.img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-style: none;
+}
+
+.details {
+    width: 85%;
+    color: rgb(243, 241, 241);
+    float: left;
+}
+
+.details h3 {
+    font-size: 19px;
+    margin: 0;
+}
+
+.price {
+    float: right;
+    color: #C49B63;
+}
+
+.info5>p {
+    font-family: "Poppins", arial, sans-serif;
+    padding-top: 25px;
+    font-size: 15px;
+    color: #999595;
+}
+
+.item9 {
+    margin-bottom: 30px;
+}
