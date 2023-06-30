@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e4e8f0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.wrapper {
+    position: relative;
+    margin: 50px auto;
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 780px;
+    border-radius: 40px;
+    background-color: #ffffff;
+}
+
+
+/* Cart Header Section Starts Here*/
+
+
+
+.cart-header {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 10% 80% 10%;
+    position: absolute;
+    top: 0;
+    border-radius: 40px 40px 0 0;
+    width: 100%;
+    padding: 45px 20px 10px 20px;
+
+}
+
+.cart-header>img {
+    /* border: 1px black solid; */
+    margin: auto;
+}
+
+.cart-header>img:hover {
+    cursor: pointer;
+}
+
+.cart-header>h1 {
+    /* border: 1px black solid; */
+    margin: 0 auto;
+}
+
+
+
+
+
+/* Cart Header Section Ends Here*/
+
+
+
+/* Cart Body Section Starts Here */
+
+
+
+.cart-body {
+    position: absolute;
+    top: 105px;
+    background-color: #f8f4ec;
+    /* border: 1px solid blueviolet; */
+    width: 100%;
+    height: 600px;
+    padding: 25px 20px 90px 20px;
+    border-radius: 40px 40px 0 0;
+    box-shadow: inset 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+.subtotal{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto;
+    position: absolute;
+    bottom: 107px;
+    /* border: 1px solid blue; */
+    width: 90%;
+    padding: 0 20px 10px ;
+    /* margin: 0 30px 0 0; */
+    background-color: #f8f4ec;
+}
+
+.item {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 20% 60% 13%;
+    background-color: white;
+    border-radius: 30px;
+    width: 96%;
+    margin: 10px 2% 0;
+    height: 90px;
+}
+
+.itemImage {
+    padding: 13px 0 0 10px;
+}
+.outer-circle {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #f1ebc0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fdebe1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-circle img {
+    width: 90px;
+    height: 90px;
+    padding: 20px 0 0 20px;
+    
+  }
+
+.itemDescription {
+    /* border: 1px solid black; */
+    padding: 18px 0 0 18px;
+}
+.itemDescription>h5{
+    font-size: 1.1em;
+    padding-top: 8px;
+}
+.itemprice {
+    position: relative;
+    top: 8px;
+    font-weight: bold;
+    
+}
+
+.itemcurrencySign {
+    position: absolute;
+    top: 3px;
+    font-size: .4em;
+}
+
+.itemcurrencyAmmount {
+    position: absolute;
+    left: 6px;
+    font-size: .9em;
+    
+}
+
+.itemQuantity {
+    display: grid;
+    justify-content: space-around;
+    grid-template-rows: auto auto auto;
+    padding: 15px;
+}
+.itemQuantity>img{
+    cursor: pointer;
+}
+
+/* Cart Body Section Ends Here */
+
+
+/* Cart Footer Section Starts Here */
+
+.cart-footer {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0px -4px 4px -2px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+}
+
+.price {
+    position: relative;
+    margin-top: 8px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.currencySign {
+    position: absolute;
+    top: 5px;
+    font-size: .9em;
+}
+
+.currencyAmmount {
+    position: absolute;
+    left: 6px;
+    font-size: 1.8em;
+
+}
+
+.cart-footer>button {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto;
+    background-color: #4a539b;
+    color: white;
+    height: 50px;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.cart-footer>button:hover {
+    background-color: #3f4463;
+}
+
+.cart-footer>button>img,
+p {
+    display: inline;
+    padding: 4px;
+    font-size: 1.2em;
+}
+
+
+/* Cart Footer Section Ends Here */
