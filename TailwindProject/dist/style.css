@@ -522,24 +522,16 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.m-12 {
-  margin: 3rem;
+.m-32 {
+  margin: 8rem;
 }
 
 .h-10 {
   height: 2.5rem;
 }
 
-.h-12 {
-  height: 3rem;
-}
-
 .w-10 {
   width: 2.5rem;
-}
-
-.w-12 {
-  width: 3rem;
 }
 
 .bg-slate-400 {
@@ -547,35 +539,7 @@ video {
   background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 
-.p-12 {
-  padding: 3rem;
-}
-
-.pt-0 {
-  padding-top: 0px;
-}
-
-.pb-0 {
-  padding-bottom: 0px;
-}
-
-.pr-12 {
-  padding-right: 3rem;
-}
-
-.pl-0 {
-  padding-left: 0px;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.underline {
-  text-decoration-line: underline;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
